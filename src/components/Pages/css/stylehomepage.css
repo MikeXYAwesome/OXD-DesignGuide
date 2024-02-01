@@ -1,0 +1,11 @@
+.homepagewrap
+{
+    padding: 15px 15px;
+    background-color: red;
+    height: 200px;
+    width: 400px;
+}
+a{
+    color: aqua;
+    font-size: 45px;
+}
