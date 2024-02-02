@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Protest Riot', sans-serif;
+    src: url(../../../assets/fonts/ProtestRiot-Regular.ttf);
+}
+
+
 .homepagewrap
 {
     padding: 15px 15px;
@@ -24,4 +30,59 @@ a{
     width: 1000px;
     height: auto;
     background-color: bisque;
+    border-radius: 50px;
+    overflow: hidden;
 }
+
+
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 100px;
+    flex-wrap: wrap;
+    padding: 100px;
+    grid-gap: 50px;
+    row-gap: 100px;
+    font-family: 'Protest Riot', sans-serif;
+  }
+  
+  .flexCard1 {
+    flex: 0 1 auto;
+    width: 100%;
+    height: 600px;
+    background-color: #bc0111;
+    font-size: 65px;
+    font-family: 'Protest Riot', sans-serif;
+  }
+  
+  .flexCard2 {
+    flex: 0 1 auto;
+    width: 900px;
+    height: 400px;
+    background-color: #3df5ae;
+  }
+  
+  .flexCard3 {
+    flex: 0 1 auto;
+    width: 550px;
+    height: 400px;
+    background-color: #f96210;
+  }
+  
+  .flexCard4 {
+    flex: 0 1 auto;
+    width: 400px;
+    height: 400px;
+    background-color: #a400f0;
+  }
+  
+  .flexCard5 {
+    flex: 0 1 auto;
+    width: 70%;
+    height: 400px;
+    background-color: #ffd60a;
+  }
+  

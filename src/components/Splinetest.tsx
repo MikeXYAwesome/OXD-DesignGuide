@@ -4,7 +4,7 @@ function SplineScene() {
   return (
     <>
       <div className="animationCard">
-        <Spline scene="https://prod.spline.design/3HcYkcvtYVL6rBhL/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/i90QSFmWOyWYUIlm/scene.splinecode" />
       </div>
     </>
   );
