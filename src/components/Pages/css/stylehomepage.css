@@ -10,3 +10,11 @@ a{
     font-size: 55px;
     font-weight: 800;
 }
+
+.maincard
+{
+    background-color: pink;
+    height: 400px;
+    width: 1000px;
+    border-radius: 35px;
+}

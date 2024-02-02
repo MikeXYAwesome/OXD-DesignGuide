@@ -7,6 +7,7 @@ function HomePage() {
       <div className="homepagewrap">
         <h1>HomePage</h1>
         <h1>
+          <div className="maincard"></div>
           <Link to="/mainpage">MainPage</Link>
           <a href="/mainpage">CLick me</a>
         </h1>
