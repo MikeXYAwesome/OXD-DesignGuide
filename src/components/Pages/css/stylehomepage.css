@@ -18,3 +18,10 @@ a{
     width: 1000px;
     border-radius: 35px;
 }
+
+.animationCard
+{
+    width: 1000px;
+    height: auto;
+    background-color: bisque;
+}
