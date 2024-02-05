@@ -1,15 +1,13 @@
 @font-face {
-    font-family: 'Protest Riot', sans-serif;
-    src: url(../../../assets/fonts/ProtestRiot-Regular.ttf);
+    font-family: 'Lilita One', sans-serif;
+    src: url(../../../assets/fonts/LilitaOne-Regular.ttf);
 }
 
 
 .homepagewrap
 {
     padding: 15px 15px;
-    background-color: red;
-    height: 200px;
-    width: 400px;
+ 
 }
 a{
     color: aqua;
@@ -25,12 +23,17 @@ a{
     border-radius: 35px;
 }
 
+.main-footer
+{
+    width: 100%;
+    height: 450px;
+}
+
 .animationCard
 {
-    width: 1000px;
-    height: auto;
+    width: 100%;
+    height: 400px;
     background-color: bisque;
-    border-radius: 50px;
     overflow: hidden;
 }
 
@@ -46,43 +49,70 @@ a{
     padding: 100px;
     grid-gap: 50px;
     row-gap: 100px;
-    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    line-height: 65px;
   }
   
   .flexCard1 {
     flex: 0 1 auto;
+    padding: 25px;
     width: 100%;
     height: 600px;
     background-color: #bc0111;
-    font-size: 65px;
-    font-family: 'Protest Riot', sans-serif;
+    font-size: 95px;
+    font-family: 'Lilita One', sans-serif;
   }
   
   .flexCard2 {
     flex: 0 1 auto;
+    padding: 25px;
     width: 900px;
     height: 400px;
+    font-size: 65px;
     background-color: #3df5ae;
   }
   
   .flexCard3 {
     flex: 0 1 auto;
+    padding: 25px;
     width: 550px;
     height: 400px;
+    font-size: 65px;
     background-color: #f96210;
   }
   
   .flexCard4 {
     flex: 0 1 auto;
+    padding: 25px;
     width: 400px;
     height: 400px;
+    font-size: 65px;
     background-color: #a400f0;
   }
   
   .flexCard5 {
     flex: 0 1 auto;
+    padding: 25px;
     width: 70%;
     height: 400px;
+    font-size: 65px;
     background-color: #ffd60a;
   }
   
+  .flexCard6 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+    font-size: 65px;
+    background-color: #0aff70;
+  }
+
+  .flexCard7 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 60%;
+    height: 400px;
+    font-size: 65px;
+    background-color: #ffd60a;
+  }
