@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 interface Props {
   items: string[];
@@ -27,7 +28,7 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
               onSelectItem(item);
             }}
           >
-            {item}
+            <Link to={"/" + item + "/"}>{item}</Link>
           </li>
         ))}
       </ul>

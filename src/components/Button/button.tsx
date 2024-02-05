@@ -6,7 +6,7 @@ interface Props {
   color?: "primary" | "secondary" | "danger";
 }
 
-const Button = ({ children, color = "primary" }: Props) => {
+const Buttons = ({ children, color = "primary" }: Props) => {
   return (
     <button className={[styles.btn, styles["btn-" + color]].join(" ")}>
       {children}
@@ -14,4 +14,4 @@ const Button = ({ children, color = "primary" }: Props) => {
   );
 };
 
-export default Button;
+export default Buttons;

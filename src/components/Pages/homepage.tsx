@@ -18,31 +18,46 @@ function HomePage() {
           <Link to="/mainpage">MainPage</Link>
         </div>
         <div className="flexCard2" data-aos="fade-up">
-          Design Philosophy
+          <div>Design Philosophy</div>
+          <Link to="/mainpage">lern whats behind</Link>
         </div>
         <div className="flexCard3" data-aos="fade-up">
-          OXD Interaction Module
+          <div>OXD Interaction Module</div>
+          <Link to="/mainpage">See The Guide</Link>
         </div>
         <div className="flexCard4" data-aos="fade-up">
-          Figma UI Library
+          <div>Figma UI Library</div>
+          <Link to="/mainpage">Go to File</Link>
         </div>
         <div className="flexCard4" data-aos="fade-up">
-          User Exprince Standards
+          <div>User Exprince Standards</div>
+          <Link to="/mainpage">MainPage</Link>
         </div>
         <div className="flexCard3" data-aos="fade-up">
-          Made By OXD
+          <div>Made By OXD</div>
+          <Link to="/mainpage">MainPage</Link>
         </div>
         <div className="flexCard5" data-aos="fade-up">
-          UI Components
+          <div>UI Components</div>
+          <Link to="/oxdcomponets">MainPage</Link>
         </div>
         <div className="flexCard6" data-aos="fade-up">
-          OXD Iconography
+          <div>OXD Iconography</div>
+          <Link to="/mainpage">MainPage</Link>
         </div>
         <div className="flexCard3" data-aos="fade-up">
-          QA Guide
+          <div>QA Guide</div>
+          <Link to="/mainpage">MainPage</Link>
         </div>
         <div className="flexCard7" data-aos="fade-up">
-          OXD Widgets
+          <div>OXD Widgets</div>
+          <Link to="/mainpage">MainPage</Link>
+        </div>
+
+        <div className="OtherLinkCard">
+          <div>OXD Exam</div>
+          <div>OXD Cetifications</div>
+          <div>OXD Widgets</div>
         </div>
       </div>
       <div className="homepagewrap">
