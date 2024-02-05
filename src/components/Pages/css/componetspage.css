@@ -1,0 +1,22 @@
+
+
+.com-nav
+{
+    background-color: aqua;
+}
+
+.comMainWraper
+{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 100px;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+    padding: 100px;
+    grid-gap: 50px;
+    row-gap: 100px;
+}

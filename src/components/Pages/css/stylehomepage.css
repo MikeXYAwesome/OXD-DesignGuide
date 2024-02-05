@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Lilita One', sans-serif;
+    src: url(../../../assets/fonts/LilitaOne-Regular.ttf);
+}
+
+
+.homepagewrap
+{
+    padding: 15px 15px;
+ 
+}
+a{
+    color: aqua;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.maincard
+{
+    background-color: pink;
+    height: 400px;
+    width: 1000px;
+    border-radius: 35px;
+}
+
+.main-footer
+{
+    width: 100%;
+    height: 400px;
+}
+
+.animationCard
+{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 100px;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+    padding: 100px;
+    grid-gap: 50px;
+    row-gap: 100px;
+    font-family: 'Lilita One', sans-serif;
+    line-height: 65px;
+  }
+  
+  .flexCard1 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 100%;
+    height: 600px;
+    background-color: #bc0111;
+    font-size: 95px;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .flexCard2 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 900px;
+    height: 400px;
+    font-size: 65px;
+    background-color: #3df5ae;
+  }
+  
+  .flexCard3 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 550px;
+    height: 400px;
+    font-size: 65px;
+    background-color: #f96210;
+  }
+  
+  .flexCard4 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+    font-size: 65px;
+    background-color: #a400f0;
+  }
+  
+  .flexCard5 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 70%;
+    height: 400px;
+    font-size: 65px;
+    background-color: #ffd60a;
+  }
+  
+  .flexCard6 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+    font-size: 65px;
+    background-color: #0aff70;
+  }
+
+  .flexCard7 {
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 60%;
+    height: 400px;
+    font-size: 65px;
+    background-color: #ffd60a;
+  }
+
+  .homeContainer a
+  {
+    font-size: 35px;
+  }
