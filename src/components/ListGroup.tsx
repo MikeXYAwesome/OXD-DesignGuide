@@ -12,24 +12,25 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
 
   return (
     <>
-      <h1> {heading} </h1>
       {items.length === 0 && <p>No Items Found</p>}
       <ul className="list-group">
         {items.map((item, index) => (
-          <li
-            className={
-              selectedIndex === index
-                ? "list-group-item active"
-                : "list-group-item"
-            }
-            key={item}
-            onClick={() => {
-              setSelectedIndex(index);
-              onSelectItem(item);
-            }}
-          >
-            <Link to={"/" + item + "/"}>{item}</Link>
-          </li>
+          <Link to={heading} key={item}>
+            <li
+              className={
+                selectedIndex === index
+                  ? //selectedIndex === id
+                    "list-group-item active"
+                  : "list-group-item"
+              }
+              onClick={() => {
+                setSelectedIndex(index);
+                onSelectItem(item);
+              }}
+            >
+              {item}
+            </li>
+          </Link>
         ))}
       </ul>
     </>
@@ -37,3 +38,17 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
 }
 
 export default ListGroup;
+
+// to page
+
+// {SidebarData.map((val, key) => {
+//   const items = [val.title];
+//   return (
+//     <ListGroup
+//       items={items}
+//       heading={val.link}
+//       key={key}
+//       onSelectItem={hadleOnSelect}
+//     />
+//   );
+// })}

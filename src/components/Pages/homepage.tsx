@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 function HomePage() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -15,55 +15,76 @@ function HomePage() {
       <div className="homeContainer">
         <div className="flexCard1">
           <div>OXD Design System</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            See the Majic
+          </Link>
         </div>
-        <div className="flexCard2" data-aos="fade-up">
+        <div className="flexCard2" data-aos="fade-right">
           <div>Design Philosophy</div>
-          <Link to="/mainpage">lern whats behind</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            Learn What's Behind
+          </Link>
         </div>
-        <div className="flexCard3" data-aos="fade-up">
+        <div className="flexCard3" data-aos="fade-left">
           <div>OXD Interaction Module</div>
-          <Link to="/mainpage">See The Guide</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            See The Guide
+          </Link>
+          <div className="splineBg">
+            <SplineScene></SplineScene>
+          </div>
         </div>
-        <div className="flexCard4" data-aos="fade-up">
+        <div className="flexCard4" data-aos="fade-right">
           <div>Figma UI Library</div>
-          <Link to="/mainpage">Go to File</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            Go to File
+          </Link>
         </div>
-        <div className="flexCard4" data-aos="fade-up">
+        <div className="flexCard4" data-aos="zoom-in">
           <div>User Exprince Standards</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
-        <div className="flexCard3" data-aos="fade-up">
+        <div className="flexCard3" data-aos="fade-left">
           <div>Made By OXD</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
-        <div className="flexCard5" data-aos="fade-up">
+        <div className="flexCard5" data-aos="fade-right">
           <div>UI Components</div>
-          <Link to="/oxdcomponets">MainPage</Link>
+          <Link to="/oxdcomponets" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
-        <div className="flexCard6" data-aos="fade-up">
+        <div className="flexCard6" data-aos="zoom-out">
           <div>OXD Iconography</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
-        <div className="flexCard3" data-aos="fade-up">
+        <div className="flexCard3" data-aos="fade-up-right">
           <div>QA Guide</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
-        <div className="flexCard7" data-aos="fade-up">
+        <div className="flexCard7" data-aos="fade-up-left">
           <div>OXD Widgets</div>
-          <Link to="/mainpage">MainPage</Link>
+          <Link to="/mainpage" className="mainPagelinks">
+            MainPage
+          </Link>
         </div>
 
-        <div className="OtherLinkCard">
-          <div>OXD Exam</div>
-          <div>OXD Cetifications</div>
-          <div>OXD Widgets</div>
+        <div className="OtherLinkCard" data-aos="fade-right">
+          <div className="Olinks">OXD Exam</div>
+          <div className="Olinks">OXD Cetifications</div>
+          <div className="Olinks">OXD Blogs</div>
         </div>
       </div>
-      <div className="homepagewrap">
-        <div className="main-footer">
-          <SplineScene></SplineScene>
-        </div>
+      <div className="homepagewrap" data-aos="flip-down">
+        <div className="main-footer"></div>
       </div>
     </>
   );

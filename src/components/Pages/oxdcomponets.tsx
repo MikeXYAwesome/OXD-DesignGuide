@@ -1,31 +1,22 @@
-import ListGroup from "../ListGroup";
+import { Outlet } from "react-router-dom";
 import "./css/componetspage.css";
+import Sidebar from "./sidebar";
 
 function OXDcomponets() {
-  let items = ["Buttons", "DropDown", "Radio", "Check Box", "mainpage"];
-
-  const hadleSelectItem = (items: string) => {
-    console.log(items);
-  };
-
   return (
     <>
-      <div className="comMainWraper">
-        <div className="topNaveBar"></div>
-        <h1>this is the compnets page</h1>
-        <p>Navigation</p>
-        <ListGroup
-          items={items}
-          heading="Cities"
-          onSelectItem={hadleSelectItem}
-        ></ListGroup>
+      <div className="pageWrpper">
+        <div className="comMainWraper">
+          <Sidebar />
+          <div className="componetsPage">
+            <Outlet></Outlet>
+          </div>
+        </div>
       </div>
-
-      <div></div>
-      <div></div>
-      <div></div>
     </>
   );
 }
 
 export default OXDcomponets;
+
+//let items = ["Buttons", "DropDown", "Radio", "Check Box", "mainpage"];

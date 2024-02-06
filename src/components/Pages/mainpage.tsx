@@ -1,14 +1,12 @@
-import Button from "../Button/button";
-import TestIcon from "../TestIcon";
+import "./css/stylehomepage.css";
 
 function Mainpage() {
   return (
     <>
-      <div>This is the main page</div>
-      <Button>
-        <TestIcon />
-        This button
-      </Button>
+      <div className="mainPagewrap">
+        <div>This is the compnets Main page</div>
+        <p>Lets Play</p>
+      </div>
     </>
   );
 }

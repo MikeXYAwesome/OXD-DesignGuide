@@ -1,0 +1,21 @@
+.topNaveBar
+{
+    color: black;
+    padding-top: 20px;
+}
+nav a
+{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+}
+
+nav a:Hover
+{
+    background-color: black;
+    color: white;
+}
