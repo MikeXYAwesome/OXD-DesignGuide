@@ -41,7 +41,7 @@ function HomePage() {
           </Link>
         </div>
         <div className="flexCard4" data-aos="zoom-in">
-          <div>User Exprince Standards</div>
+          <div>User Experience Standards</div>
           <Link to="/mainpage" className="mainPagelinks">
             MainPage
           </Link>
@@ -79,7 +79,7 @@ function HomePage() {
 
         <div className="OtherLinkCard" data-aos="fade-right">
           <div className="Olinks">OXD Exam</div>
-          <div className="Olinks">OXD Cetifications</div>
+          <div className="Olinks">OXD Certifications</div>
           <div className="Olinks">OXD Blogs</div>
         </div>
       </div>

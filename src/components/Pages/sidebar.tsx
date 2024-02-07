@@ -19,10 +19,9 @@ function Sidebar() {
                       }
                     : { color: "#545e6f" }
                 }
+                key={key}
               >
-                <li key={key} onClick={() => {}}>
-                  {val.title}
-                </li>
+                <li onClick={() => {}}>{val.title}</li>
               </NavLink>
             );
           })}

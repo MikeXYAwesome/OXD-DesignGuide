@@ -46,7 +46,7 @@ function App() {
               background: isActive ? "#000" : "#f0f0f0",
             })}
           >
-            Componets
+            Components
           </NavLink>
         </nav>
       </div>
